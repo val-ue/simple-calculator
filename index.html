@@ -15,9 +15,36 @@
   </head>
 
   <body class="full-width full-height">
-    <main class="flex justify-content-center full-height">
+    <main class="flex justify-content-center align-items-center full-height">
+      <div class="calculator flex justify-content-center align-items-center">
+        <div class="head">
+          <h1>Calculator</h1>
+        </div>
 
+        <div class="all-math full-width">
+          <div class="number-inputs flex align-items-center justify-content-center">
+            <div class="first-number flex justify-content-center">
+              <input id="first-input" type="text"></input>
+            </div>
 
+            <div class="second-number flex justify-content-center">
+              <input id="second-input" type="text"></input>
+            </div>
+          </div>  
+          
+          <div class="math flex justify-content-center">
+            <ul class="math-buttons flex full-width">
+              <button class="add">+</button>
+              <button class="subtract">-</button>
+              <button class="divide">/</button>
+              <button class="multiply">x</libutton>
+            </ul>
+          </div>
+        </div>
+
+        <h2 class="result">0</h2>
+
+      </div>
     </main>
 
     <script src="main.js"></script>
