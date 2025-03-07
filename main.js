@@ -14,8 +14,8 @@ const mathButtons = get("math-buttons");
 const buttons = document.querySelectorAll("button");
 
 const calculate = function (event) {
-  let firstInput = parseInt(document.getElementById("first-input").value);
-  let secondInput = parseInt(document.getElementById("second-input").value);
+  let firstInput = parseInt(get("#first-input").value);
+  let secondInput = parseInt(get("#second-input").value);
 
   if (isNaN(firstInput) || isNaN(secondInput)) {
     result.innerText = `Please use numbers only`;
