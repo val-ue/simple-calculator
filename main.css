@@ -87,12 +87,6 @@ input {
   font-weight: 600;
 }
 
-input[type="text"]:focus {
-  outline: none;
-  box-shadow: 0px 0px 5px #61c5fa;
-  border: 1px solid #5ab0db;
-}
-
 input[type="text"]:focus:hover {
   outline: none;
   box-shadow: 0px 0px 5px #61c5fa;
